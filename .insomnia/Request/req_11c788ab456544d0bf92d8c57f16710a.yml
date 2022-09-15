@@ -1,0 +1,33 @@
+_id: req_11c788ab456544d0bf92d8c57f16710a
+type: Request
+parentId: fld_09cf15b4cf5c4c4c88811b06c5f70875
+modified: 1663147877338
+created: 1663065356452
+url: "{{ _['localhost-url'] }}/client/registerClient"
+name: /client/registerClient
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "client1"
+    }
+parameters: []
+headers:
+  - id: pair_6e604673de5e4297945216f2c29f2c76
+    name: secret-key
+    value: qw#ert$yZH!kdfg^ORHlz+xcQZnm12%34569)87Y654&mnbvVzp!@uytrPewq(tB
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_5e50e5c312cc4eb3a8cf83156cb8e23f
+authentication: {}
+metaSortKey: -1663065356452
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

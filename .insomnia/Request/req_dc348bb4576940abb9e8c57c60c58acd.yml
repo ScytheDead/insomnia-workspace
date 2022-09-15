@@ -1,0 +1,39 @@
+_id: req_dc348bb4576940abb9e8c57c60c58acd
+type: Request
+parentId: fld_0b99103b48ba42d4a127b8c968072047
+modified: 1663154849001
+created: 1663060042026
+url: "{{ _['dev-url'] }}/admin/room?pageIndex=1&pageSize=10"
+name: /admin/room
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_583f72ad003343d2894b0f9c6f22cf64
+    name: client-id
+    value: 63213bba5ca42fc82ce4b42a
+    description: ""
+    disabled: false
+  - id: pair_e367297b5d67417ab7255858dfec4730
+    name: key
+    value: secret-client-key-1663122348525
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_d79e23406f6b4e42b6b09e4e464d4bb4
+  - id: pair_8fd7b9a817f94664bc9d0bd12c923200
+    name: username
+    value: cmctest1
+    description: ""
+authentication: {}
+metaSortKey: -1663050200421.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

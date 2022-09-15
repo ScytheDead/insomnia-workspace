@@ -1,0 +1,27 @@
+_id: req_3ad50f386a16475dbee9195e520a23bf
+type: Request
+parentId: fld_72031d1d9220491684d204b8bc177c3c
+modified: 1663040922881
+created: 1662970235589
+url: "{{ _['localhost-url']
+  }}/shop_board_customer/get-favourite-items?page=1&limit=10"
+name: /shop_board_customer
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_09b3fc6b2131411b9aee2ce60eaf9dcb
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImNtY3Rlc3QiLCJpYXQiOjE2NjMwMzQzNzgsImV4cCI6MTY2MzA2MzE3OH0.axpZ51yuRxMpP5JxjYxjAJ3EivbN__dL1riJHspqXKI
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1662438884334
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,38 @@
+_id: req_13855135526e48c6a8ab3094629143bc
+type: Request
+parentId: fld_0b99103b48ba42d4a127b8c968072047
+modified: 1663147251929
+created: 1663051327995
+url: "{{ _['localhost-url'] }}/admin/room/63217c683a1e02aa54e7e40e"
+name: /admin/room/:_id
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8fb91e8185ad4552b79515667de6fb23
+  - id: pair_e05a74b930da48b1877b7f00c5a1eb5b
+    name: client-id
+    value: 63213bba5ca42fc82ce4b42a
+    description: ""
+  - id: pair_4df78e7e9b01481994b73d7125cfad85
+    name: key
+    value: secret-client-key-1663122348525
+    description: ""
+  - id: pair_860a99e6c5824dc7a1d98006de3ac434
+    name: username
+    value: cmctest1
+    description: ""
+authentication: {}
+metaSortKey: -1663051327995
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

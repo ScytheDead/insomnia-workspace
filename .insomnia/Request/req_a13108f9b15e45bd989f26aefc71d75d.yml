@@ -1,0 +1,29 @@
+_id: req_a13108f9b15e45bd989f26aefc71d75d
+type: Request
+parentId: fld_d123887114ca4af6bb94b360cda6361e
+modified: 1662973967943
+created: 1662970300374
+url: "{{ _['localhost-url'] }}/user/login"
+name: /login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": 123
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c1b2657bced6419d8cfc5fed6e0d1f8e
+authentication: {}
+metaSortKey: -1662841455344
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

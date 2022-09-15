@@ -1,0 +1,29 @@
+_id: req_e7d1c168f1664dfd920ce13b7dd81730
+type: Request
+parentId: fld_72031d1d9220491684d204b8bc177c3c
+modified: 1662539474520
+created: 1662538776815
+url: "{{ _['localhost-url'] }}/shop_product/search?limit=40&page=1&sort=latest"
+name: /shop_product
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_7dc9e0d87d444f54a1b1f0405012c7f9
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_d8d7c047ea094d9bbb3e180c2aa3c27a
+    name: page
+    value: "1"
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1662438884384
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

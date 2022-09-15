@@ -1,0 +1,30 @@
+_id: req_f7e3b2764727483392bf0c1b6c910423
+type: Request
+parentId: fld_72031d1d9220491684d204b8bc177c3c
+modified: 1663043676551
+created: 1662524181980
+url: "{{ _['localhost-url'] }}/shop_product_option"
+name: /shop_product_option
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"p_code": "COMBOTEST2",
+    	"optionValues": ["A타입"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_8d076c85205a402bbb0fd6b082ba333a
+authentication: {}
+metaSortKey: -1662438884484
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

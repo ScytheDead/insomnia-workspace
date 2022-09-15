@@ -1,0 +1,16 @@
+_id: env_c079207eb48c44b3b4f567c3f7a8c2af
+type: Environment
+parentId: env_5c7ac2338cbe31d096c463f03e315a493e1b05ce
+modified: 1662973922238
+created: 1662447542663
+name: Anbox Backend
+data:
+  localhost-url: localhost:4000
+  dev: http://cmcdev.bimil09.co.kr:5000
+dataPropertyOrder:
+  "&":
+    - localhost-url
+    - dev
+color: null
+isPrivate: false
+metaSortKey: 1662447542663
