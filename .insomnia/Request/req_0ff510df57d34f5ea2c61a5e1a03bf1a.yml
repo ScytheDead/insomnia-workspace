@@ -1,15 +1,19 @@
-_id: req_dc348bb4576940abb9e8c57c60c58acd
+_id: req_0ff510df57d34f5ea2c61a5e1a03bf1a
 type: Request
-parentId: wrk_fa126945ab6b4a90bdad9b5ed1f0b57f
-modified: 1663492277852
-created: 1663060042026
-url: "{{ _['localhost-url'] }}/admin/room?pageIndex=1&pageSize=10"
-name: /admin/room
+parentId: fld_ebad82066a45496cb06537db3a41f8b0
+modified: 1663495766381
+created: 1663491634922
+url: "{{ _['localhost-url'] }}/admin/setting/6326edf399a42bc3c2773fbb"
+name: /admin/setting
 description: ""
-method: GET
+method: PUT
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"name": "Highlight",
+    	"activeValue": "Highlight"
+    }
 parameters: []
 headers:
   - id: pair_583f72ad003343d2894b0f9c6f22cf64
@@ -29,7 +33,7 @@ headers:
     value: secret-admin-key-1663122348525
     description: ""
 authentication: {}
-metaSortKey: -1662973969897
+metaSortKey: -1663384903483
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

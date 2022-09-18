@@ -1,36 +1,35 @@
-_id: req_fc77869f0c5548548dc284424a0d4ddd
+_id: req_ea9c3a6e84104c228c2c1766bcd70f0b
 type: Request
-parentId: wrk_fa126945ab6b4a90bdad9b5ed1f0b57f
-modified: 1663492288496
-created: 1663051222579
-url: "{{ _['localhost-url'] }}/admin/room/6321a510ca12b05f1ddd2259"
-name: /admin/room/:_id
+parentId: fld_ebad82066a45496cb06537db3a41f8b0
+modified: 1663495661349
+created: 1663491783118
+url: "{{ _['localhost-url'] }}/admin/setting/6326e6ce07c76476985323c4"
+name: /admin/setting
 description: ""
-method: GET
+method: DELETE
 body:
   mimeType: application/json
   text: ""
 parameters: []
 headers:
-  - id: pair_e6d270a925954778b365ff521ffdcc88
+  - id: pair_583f72ad003343d2894b0f9c6f22cf64
     name: client-id
     value: 63213bba5ca42fc82ce4b42a
     description: ""
     disabled: false
-  - id: pair_03fd68a8cda846feacc7b44ce5edd198
+  - id: pair_e367297b5d67417ab7255858dfec4730
     name: key
     value: secret-client-key-1663122348525
     description: ""
   - name: Content-Type
     value: application/json
-    id: pair_8bc837d77b2541be98ccdd089bb636c4
-  - id: pair_b6967628ba904f0ebb0d5814fb35a38b
-    name: username
-    value: cmctest1
+    id: pair_d79e23406f6b4e42b6b09e4e464d4bb4
+  - id: pair_8fd7b9a817f94664bc9d0bd12c923200
+    name: admin-key
+    value: secret-admin-key-1663122348525
     description: ""
-    disabled: false
 authentication: {}
-metaSortKey: -1662973973279
+metaSortKey: -1663331645644.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

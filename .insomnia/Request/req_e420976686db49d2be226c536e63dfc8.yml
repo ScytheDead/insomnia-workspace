@@ -1,10 +1,10 @@
 _id: req_e420976686db49d2be226c536e63dfc8
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1663153242232
+modified: 1663491418874
 created: 1662974024076
-url: "{{ _['dev-url'] }}/admin/room"
-name: /admin/room
+url: "{{ _['localhost-url'] }}/admin/room/public"
+name: /admin/room/public
 description: ""
 method: POST
 body:
@@ -14,20 +14,21 @@ body:
       value: live room 1
       id: pair_d7e0d6bb90b14e3da38b52c85be2e000
       disabled: false
-    - id: pair_0e5dbdc9b2cc4ed38005be6531682ebb
-      name: isMultiple
-      value: "true"
-      description: ""
     - id: pair_0e74ddd0e5ec4a94b56d44bb1b805549
       name: icon
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\nkhuy1\Pictures\Saved Pictures\koala.jpg
+      fileName: /Users/huynguyen/Pictures/Social
+        Images/wartermark-logo/noel/christmas.jpeg
       disabled: false
     - id: pair_3d15fd372d0f4a44a777395c7cd82daf
       name: maximum
-      value: "500"
+      value: "50"
+      description: ""
+    - id: pair_ea66167d47eb4d33b6bd836c5aaf3b14
+      name: userId
+      value: "1"
       description: ""
 parameters: []
 headers:
@@ -45,8 +46,8 @@ headers:
     description: ""
     disabled: false
   - id: pair_bc412f7c22584e2098ce004867806673
-    name: username
-    value: cmctest1
+    name: admin-key
+    value: secret-admin-key-1663122348525
     description: ""
 authentication: {}
 metaSortKey: -1662974024076

@@ -1,10 +1,10 @@
-_id: req_dc348bb4576940abb9e8c57c60c58acd
+_id: req_cff6c9a0203540948882643bc571c712
 type: Request
-parentId: wrk_fa126945ab6b4a90bdad9b5ed1f0b57f
-modified: 1663492277852
-created: 1663060042026
-url: "{{ _['localhost-url'] }}/admin/room?pageIndex=1&pageSize=10"
-name: /admin/room
+parentId: fld_0b99103b48ba42d4a127b8c968072047
+modified: 1663473494473
+created: 1663471824101
+url: "{{ _['localhost-url'] }}/admin/room/private/1"
+name: /admin/room/private/1
 description: ""
 method: GET
 body:
@@ -21,15 +21,19 @@ headers:
     name: key
     value: secret-client-key-1663122348525
     description: ""
-  - name: Content-Type
-    value: application/json
-    id: pair_d79e23406f6b4e42b6b09e4e464d4bb4
   - id: pair_8fd7b9a817f94664bc9d0bd12c923200
     name: admin-key
     value: secret-admin-key-1663122348525
     description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_d79e23406f6b4e42b6b09e4e464d4bb4
+  - id: pair_60efad36548c44188f5630b0ab7b1667
+    name: ""
+    value: ""
+    description: ""
 authentication: {}
-metaSortKey: -1662973969897
+metaSortKey: -1663049689342.75
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
