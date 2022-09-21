@@ -1,0 +1,38 @@
+_id: req_f2a47b7db8cf426684f5cb150084b09e
+type: Request
+parentId: fld_ea890dddb68743d183e9125e4caaeea1
+modified: 1663577208757
+created: 1663208114116
+url: "{{ _['dev-server'] }}/message/632564cf0227d2edc19f4725"
+name: /message/:roomId
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"cursor": null,
+    	"pageSize": 50
+    }
+parameters: []
+headers:
+  - id: pair_0ab24bba7d724a9a8291da37057bf1f3
+    name: client-id
+    value: 63213bba5ca42fc82ce4b42a
+    description: ""
+  - id: pair_3a8944b59cbf44529e26518238e53697
+    name: key
+    value: secret-client-key-1663122348525
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_e1bfef2d030e4f90bd220eb4df42e3ba
+authentication: {}
+metaSortKey: -1663208114116
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,51 @@
+_id: req_275cf33381a6419e93fe3f23cb7d147a
+type: Request
+parentId: fld_c030cbff19ff45e2abdb694e493808d0
+modified: 1663647614832
+created: 1663560210210
+url: localhost:3334/admin/setting
+name: /admin/setting
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_a051207205ef43faa78031b89764c496
+    name: client-id
+    value: 6327d480fb04182043956fde
+    description: ""
+    disabled: true
+  - id: pair_50c51517f61f4708b19d237c20be8e6e
+    name: admin-key
+    value: secret-admin-key-1663554688310
+    description: ""
+    disabled: true
+  - id: pair_910eb19301d847ee8d9d0250cf0bc59a
+    name: key
+    value: secret-client-key-1663554688310
+    description: ""
+    disabled: true
+  - id: pair_4e1f52242fda44e3b6de47dc71d3529b
+    name: client-id
+    value: 6327d68bcc13d0e17f4fcd4f
+    description: ""
+    disabled: false
+  - id: pair_9601b1d177054d6eaa3dd7bf12fc3aaa
+    name: admin-key
+    value: secret-admin-key-1663555211459
+    description: ""
+    disabled: false
+  - id: pair_1c3f2e530e9743e2a5bea35778275ac5
+    name: key
+    value: secret-client-key-1663555211459
+    description: ""
+    disabled: false
+authentication: {}
+metaSortKey: -1663296031302.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

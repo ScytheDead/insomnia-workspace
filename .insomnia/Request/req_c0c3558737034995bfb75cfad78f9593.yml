@@ -1,0 +1,56 @@
+_id: req_c0c3558737034995bfb75cfad78f9593
+type: Request
+parentId: fld_0b99103b48ba42d4a127b8c968072047
+modified: 1663582726955
+created: 1663394237967
+url: "{{ _['production-server'] }}/room/global"
+name: /admin/room/global
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_583f72ad003343d2894b0f9c6f22cf64
+    name: client-id
+    value: 6327d480fb04182043956fde
+    description: ""
+    disabled: false
+  - id: pair_e367297b5d67417ab7255858dfec4730
+    name: admin-key
+    value: secret-admin-key-1663554688310
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_d79e23406f6b4e42b6b09e4e464d4bb4
+  - id: pair_0c0b9168e0994fa991463f373d2f87bf
+    name: key
+    value: secret-client-key-1663554688310
+    description: ""
+    disabled: false
+  - id: pair_588649cf0d0b4295bfc8df2f1b49fe0e
+    name: client-id
+    value: 6327d68bcc13d0e17f4fcd4f
+    description: ""
+    disabled: true
+  - id: pair_1b90106fe08d43c68d763047546dff51
+    name: admin-key
+    value: secret-admin-key-1663555211459
+    description: ""
+    disabled: true
+  - id: pair_f3870c0d8b194696ae70a7a5ea3844f7
+    name: key
+    value: secret-client-key-1663555211459
+    description: ""
+    disabled: true
+authentication: {}
+metaSortKey: -1663049689342.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

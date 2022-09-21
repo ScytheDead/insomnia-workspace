@@ -1,33 +1,33 @@
-_id: req_e420976686db49d2be226c536e63dfc8
+_id: req_2731bd16a3bf4f4993d0eaa79f08e58d
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1663595251909
-created: 1662974024076
-url: "{{ _['localhost-url'] }}/admin/room/public"
-name: /admin/room/public
+modified: 1663649740684
+created: 1663394991325
+url: "{{ _['localhost-url'] }}/admin/room/global"
+name: /admin/room/global
 description: ""
 method: POST
 body:
   mimeType: multipart/form-data
   params:
     - name: name
-      value: live room 1
+      value: global 1
       id: pair_d7e0d6bb90b14e3da38b52c85be2e000
       disabled: false
+    - id: pair_0e5dbdc9b2cc4ed38005be6531682ebb
+      name: userId
+      value: "1"
+      description: ""
     - id: pair_0e74ddd0e5ec4a94b56d44bb1b805549
       name: icon
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\nkhuy1\Pictures\Saved Pictures\koala2.jpg
+      fileName: C:\Users\nkhuy1\Pictures\Saved Pictures\koala.jpg
       disabled: false
     - id: pair_3d15fd372d0f4a44a777395c7cd82daf
       name: maximum
       value: "50"
-      description: ""
-    - id: pair_ea66167d47eb4d33b6bd836c5aaf3b14
-      name: userId
-      value: "1"
       description: ""
 parameters: []
 headers:
@@ -35,21 +35,38 @@ headers:
     value: multipart/form-data
     id: pair_93640067b5994e5babd65ebf78f4b4cd
     disabled: false
-  - id: pair_90a6e662ac6d474e857d88b0491f32d2
+  - id: pair_bc412f7c22584e2098ce004867806673
     name: client-id
     value: 6327d68bcc13d0e17f4fcd4f
     description: ""
+    disabled: true
   - id: pair_665696a3d376420e9cc87dfe1f1243ed
+    name: admin-key
+    value: secret-admin-key-1663554688310
+    description: ""
+    disabled: true
+  - id: pair_54d8ee88c5864007ad70708c62e99518
+    name: key
+    value: secret-client-key-1663554688310
+    description: ""
+    disabled: true
+  - id: pair_948e520cdc1349faa05c6db42d74cfb1
+    name: client-id
+    value: 6327d68bcc13d0e17f4fcd4f
+    description: ""
+    disabled: false
+  - id: pair_d978b9890ce64b8db7507f14242d0766
+    name: admin-key
+    value: secret-admin-key-1663555211459
+    description: ""
+    disabled: false
+  - id: pair_90d78b8c8f4048c69f92b5e61fe8b086
     name: key
     value: secret-client-key-1663555211459
     description: ""
     disabled: false
-  - id: pair_bc412f7c22584e2098ce004867806673
-    name: admin-key
-    value: secret-admin-key-1663555211459
-    description: ""
 authentication: {}
-metaSortKey: -1662974024076
+metaSortKey: -1662940881893
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

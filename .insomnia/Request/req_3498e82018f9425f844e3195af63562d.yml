@@ -1,7 +1,7 @@
 _id: req_3498e82018f9425f844e3195af63562d
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1663147255995
+modified: 1663595844322
 created: 1663056081161
 url: "{{ _['localhost-url'] }}/admin/room"
 name: /admin/room
@@ -12,9 +12,11 @@ body:
   text: |-
     {
     	"deleteIds": [
-    		"63217ca4ec50461bb88e7dc0",
-    		"63217ca6ec50461bb88e7dc5",
-    		"63217e1a854961fbe4b570a7"
+    		"63240b041fd8794d5516a83f",
+    		"63240b071fd8794d5516a843",
+    		"63240b081fd8794d5516a847",
+    		"6324170681f908b2c6011f32",
+    		"63241e127ad99660a23e6408"
     	]
     }
 parameters: []
@@ -23,8 +25,8 @@ headers:
     value: application/json
     id: pair_8fb91e8185ad4552b79515667de6fb23
   - id: pair_cdb0b4c59a184f7d9e6efd56466a4a3e
-    name: key
-    value: secret-client-key-1663122348525
+    name: admin-key
+    value: secret-admin-key-1663122348525
     description: ""
   - id: pair_16ba6840cd9c4e449a48667b641d8faa
     name: client-id

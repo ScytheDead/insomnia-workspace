@@ -1,0 +1,56 @@
+_id: req_eea6af15244c4bd48d19031f93f97f2d
+type: Request
+parentId: fld_c030cbff19ff45e2abdb694e493808d0
+modified: 1663647610736
+created: 1663560211321
+url: localhost:3334/admin/setting/63293f1c116e7ed7d7ccbb8b
+name: /admin/setting
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"activeValue": "Allow"
+    }
+parameters: []
+headers:
+  - id: pair_a051207205ef43faa78031b89764c496
+    name: client-id
+    value: 6327d480fb04182043956fde
+    description: ""
+    disabled: true
+  - id: pair_50c51517f61f4708b19d237c20be8e6e
+    name: admin-key
+    value: secret-admin-key-1663122348525
+    description: ""
+    disabled: true
+  - id: pair_910eb19301d847ee8d9d0250cf0bc59a
+    name: key
+    value: secret-client-key-1663122348525
+    description: ""
+    disabled: true
+  - id: pair_e4a34ddc5a9a46afaea3d23b62ef1966
+    name: client-id
+    value: 6327d68bcc13d0e17f4fcd4f
+    description: ""
+  - id: pair_f476a717bb7242749abd5e6524f51782
+    name: admin-key
+    value: secret-admin-key-1663555211459
+    description: ""
+  - id: pair_1badde04afa54810bd1c4b9d66a8c26f
+    name: key
+    value: secret-client-key-1663555211459
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_ff061f566ec946b1964ca90c5a9920ea
+authentication: {}
+metaSortKey: -1663252072709.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

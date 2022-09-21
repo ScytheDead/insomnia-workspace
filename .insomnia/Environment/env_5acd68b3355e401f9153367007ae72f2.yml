@@ -1,16 +1,18 @@
 _id: env_5acd68b3355e401f9153367007ae72f2
 type: Environment
 parentId: env_5c7ac2338cbe31d096c463f03e315a493e1b05ce
-modified: 1663150046661
+modified: 1663566972598
 created: 1662973927133
 name: LiveOn
 data:
   localhost-url: localhost:3333
-  dev-url: 192.168.66.46:3333
+  dev-server: 192.168.66.46:3333
+  production-server: 34.64.190.10:3333
 dataPropertyOrder:
   "&":
     - localhost-url
-    - dev-url
+    - dev-server
+    - production-server
 color: null
 isPrivate: false
 metaSortKey: 1662973927133

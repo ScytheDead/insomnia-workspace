@@ -1,9 +1,9 @@
 _id: req_11c788ab456544d0bf92d8c57f16710a
 type: Request
 parentId: fld_09cf15b4cf5c4c4c88811b06c5f70875
-modified: 1663491422679
+modified: 1663582457158
 created: 1663065356452
-url: "{{ _['localhost-url'] }}/client/registerClient"
+url: "{{ _['production-server'] }}/client/registerClient"
 name: /client/registerClient
 description: ""
 method: POST
@@ -11,7 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name": "client1"
+    	"name": "LiveOn",
+    	"namespace": "/liveon"
     }
 parameters: []
 headers:

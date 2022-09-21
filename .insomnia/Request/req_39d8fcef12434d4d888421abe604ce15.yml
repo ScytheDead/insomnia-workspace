@@ -1,0 +1,57 @@
+_id: req_39d8fcef12434d4d888421abe604ce15
+type: Request
+parentId: fld_91bacd4418ae420db0658f2687dbda57
+modified: 1663650007286
+created: 1663649166195
+url: localhost:3334/participant
+name: /participant
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_a051207205ef43faa78031b89764c496
+    name: client-id
+    value: 6327d480fb04182043956fde
+    description: ""
+    disabled: true
+  - id: pair_50c51517f61f4708b19d237c20be8e6e
+    name: admin-key
+    value: secret-admin-key-1663554688310
+    description: ""
+    disabled: true
+  - id: pair_910eb19301d847ee8d9d0250cf0bc59a
+    name: key
+    value: secret-client-key-1663554688310
+    description: ""
+    disabled: true
+  - id: pair_867c3acee9ab4f0fac32ef263295ee23
+    name: client-id
+    value: 6327d68bcc13d0e17f4fcd4f
+    description: ""
+    disabled: false
+  - id: pair_53f8edbe917341cd89f7232e18faab9b
+    name: admin-key
+    value: secret-admin-key-1663555211459
+    description: ""
+    disabled: false
+  - id: pair_c9aee4a5672e4569a511c966c481ccd6
+    name: key
+    value: secret-client-key-1663555211459
+    description: ""
+    disabled: false
+  - name: Content-Type
+    value: application/json
+    id: pair_825ae330d51c43f291041bbb16fb096d
+    disabled: false
+authentication: {}
+metaSortKey: -1663649137365
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
