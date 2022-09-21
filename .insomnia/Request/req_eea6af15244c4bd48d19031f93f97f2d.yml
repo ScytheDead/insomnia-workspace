@@ -1,9 +1,9 @@
 _id: req_eea6af15244c4bd48d19031f93f97f2d
 type: Request
 parentId: fld_c030cbff19ff45e2abdb694e493808d0
-modified: 1663647610736
+modified: 1663758693445
 created: 1663560211321
-url: localhost:3334/admin/setting/63293f1c116e7ed7d7ccbb8b
+url: "{{ _['production-server'] }}/admin/setting/632a9285c7dda1d4c4c17772"
 name: /admin/setting
 description: ""
 method: PUT
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"activeValue": "Allow"
+    	"activeValue": "강조"
     }
 parameters: []
 headers:
@@ -34,17 +34,32 @@ headers:
     name: client-id
     value: 6327d68bcc13d0e17f4fcd4f
     description: ""
+    disabled: true
   - id: pair_f476a717bb7242749abd5e6524f51782
     name: admin-key
     value: secret-admin-key-1663555211459
     description: ""
+    disabled: true
   - id: pair_1badde04afa54810bd1c4b9d66a8c26f
     name: key
     value: secret-client-key-1663555211459
     description: ""
+    disabled: true
   - name: Content-Type
     value: application/json
     id: pair_ff061f566ec946b1964ca90c5a9920ea
+  - id: pair_87fc05354e1a4388a60e36db49c6dcf9
+    name: client-id
+    value: "{{ _['34-client-id'] }}"
+    description: ""
+  - id: pair_d0a5f29b396546d98370f1f9e79f66a3
+    name: admin-key
+    value: "{{ _['34-admin-key'] }}"
+    description: ""
+  - id: pair_056cc1232c6c4e2f84dbd2fec642dd2c
+    name: key
+    value: "{{ _['34-key'] }}"
+    description: ""
 authentication: {}
 metaSortKey: -1663252072709.25
 isPrivate: false

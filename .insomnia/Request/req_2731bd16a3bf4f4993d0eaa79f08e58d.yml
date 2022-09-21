@@ -1,9 +1,9 @@
 _id: req_2731bd16a3bf4f4993d0eaa79f08e58d
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1663649740684
+modified: 1663740473970
 created: 1663394991325
-url: "{{ _['localhost-url'] }}/admin/room/global"
+url: "{{ _['dev-server'] }}/admin/room/global"
 name: /admin/room/global
 description: ""
 method: POST
@@ -54,17 +54,29 @@ headers:
     name: client-id
     value: 6327d68bcc13d0e17f4fcd4f
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_d978b9890ce64b8db7507f14242d0766
     name: admin-key
     value: secret-admin-key-1663555211459
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_90d78b8c8f4048c69f92b5e61fe8b086
     name: key
     value: secret-client-key-1663555211459
     description: ""
-    disabled: false
+    disabled: true
+  - id: pair_c87d473ce6c441bba040af33fa4c7c5d
+    name: client-id
+    value: "{{ _['192-client-id'] }}"
+    description: ""
+  - id: pair_305753b0f96e4d6888bc44cf58372d79
+    name: admin-key
+    value: "{{ _['192-admin-key'] }}"
+    description: ""
+  - id: pair_d236d93a17a8460b8cf568d98f312159
+    name: key
+    value: "{{ _['192-key'] }}"
+    description: ""
 authentication: {}
 metaSortKey: -1662940881893
 isPrivate: false

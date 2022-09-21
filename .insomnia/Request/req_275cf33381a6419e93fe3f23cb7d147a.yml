@@ -1,9 +1,9 @@
 _id: req_275cf33381a6419e93fe3f23cb7d147a
 type: Request
 parentId: fld_c030cbff19ff45e2abdb694e493808d0
-modified: 1663647614832
+modified: 1663735151811
 created: 1663560210210
-url: localhost:3334/admin/setting
+url: "{{ _['localhost-url'] }}/admin/setting"
 name: /admin/setting
 description: ""
 method: GET
@@ -29,17 +29,29 @@ headers:
     name: client-id
     value: 6327d68bcc13d0e17f4fcd4f
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_9601b1d177054d6eaa3dd7bf12fc3aaa
     name: admin-key
     value: secret-admin-key-1663555211459
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_1c3f2e530e9743e2a5bea35778275ac5
     name: key
     value: secret-client-key-1663555211459
     description: ""
-    disabled: false
+    disabled: true
+  - id: pair_e826876b73854218ad6065fd0054bf66
+    name: client-id
+    value: "{{ _['local-client-id'] }}"
+    description: ""
+  - id: pair_1cceaa87cc964d3f9e6194ad7085a3f9
+    name: admin-key
+    value: "{{ _['local-admin-key'] }}"
+    description: ""
+  - id: pair_242a21d8f3ef41d1ade15ffd446d5ba8
+    name: key
+    value: "{{ _['local-key'] }}"
+    description: ""
 authentication: {}
 metaSortKey: -1663296031302.5
 isPrivate: false

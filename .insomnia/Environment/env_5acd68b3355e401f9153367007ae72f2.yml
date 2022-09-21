@@ -1,18 +1,36 @@
 _id: env_5acd68b3355e401f9153367007ae72f2
 type: Environment
 parentId: env_5c7ac2338cbe31d096c463f03e315a493e1b05ce
-modified: 1663566972598
+modified: 1663749302284
 created: 1662973927133
 name: LiveOn
 data:
   localhost-url: localhost:3333
   dev-server: 192.168.66.46:3333
   production-server: 34.64.190.10:3333
+  local-client-id: 6327d68bcc13d0e17f4fcd4f
+  local-admin-key: secret-admin-key-1663555211459
+  local-key: secret-client-key-1663555211459
+  192-client-id: 632a91bdc7dda1d4c4c1776c
+  192-admin-key: secret-admin-key-1663734205847
+  192-key: secret-client-key-1663734205847
+  34-client-id: 6327d480fb04182043956fde
+  34-admin-key: secret-admin-key-1663554688310
+  34-key: secret-client-key-1663554688310
 dataPropertyOrder:
   "&":
     - localhost-url
     - dev-server
     - production-server
+    - local-client-id
+    - local-admin-key
+    - local-key
+    - 192-client-id
+    - 192-admin-key
+    - 192-key
+    - 34-client-id
+    - 34-admin-key
+    - 34-key
 color: null
 isPrivate: false
 metaSortKey: 1662973927133

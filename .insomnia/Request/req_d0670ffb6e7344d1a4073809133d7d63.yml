@@ -1,7 +1,7 @@
 _id: req_d0670ffb6e7344d1a4073809133d7d63
 type: Request
 parentId: fld_ea890dddb68743d183e9125e4caaeea1
-modified: 1663669590334
+modified: 1663760064322
 created: 1663237859063
 url: "{{ _['localhost-url'] }}/message"
 name: /message
@@ -12,15 +12,15 @@ parameters: []
 headers:
   - id: pair_0ab24bba7d724a9a8291da37057bf1f3
     name: client-id
-    value: 6327d68bcc13d0e17f4fcd4f
+    value: "{{ _['local-client-id'] }}"
     description: ""
   - id: pair_3a8944b59cbf44529e26518238e53697
     name: key
-    value: secret-client-key-1663555211459
+    value: "{{ _['local-key'] }}"
     description: ""
   - id: pair_8793aaf6217744f198ec32e762f2f642
     name: admin-key
-    value: secret-admin-key-1663555211459
+    value: "{{ _['local-admin-key'] }}"
     description: ""
 authentication: {}
 metaSortKey: -1663165534983

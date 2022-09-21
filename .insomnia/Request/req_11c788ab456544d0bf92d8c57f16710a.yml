@@ -1,9 +1,9 @@
 _id: req_11c788ab456544d0bf92d8c57f16710a
 type: Request
 parentId: fld_09cf15b4cf5c4c4c88811b06c5f70875
-modified: 1663582457158
+modified: 1663734282259
 created: 1663065356452
-url: "{{ _['production-server'] }}/client/registerClient"
+url: "{{ _['dev-server'] }}/client/registerClient"
 name: /client/registerClient
 description: ""
 method: POST
