@@ -1,53 +1,71 @@
-_id: req_39d8fcef12434d4d888421abe604ce15
+_id: req_a73b5bb3ff3b4c2895dec8ec8892c511
 type: Request
-parentId: fld_91bacd4418ae420db0658f2687dbda57
-modified: 1663899494588
-created: 1663649166195
-url: "{{ _['localhost-url'] }}/participant"
-name: /participant
+parentId: fld_e5b8f8918c0e4fb2b73834fc38ac198a
+modified: 1663817438027
+created: 1663817200115
+url: "{{ _['localhost-url'] }}/admin/block-user/6329461829c317963a4678a3"
+name: /admin/block-user
 description: ""
-method: DELETE
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"cursor": null
+    }
 parameters: []
 headers:
   - id: pair_a051207205ef43faa78031b89764c496
     name: client-id
-    value: 6327d480fb04182043956fde
+    value: "{{ _['local-client-id'] }}"
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_50c51517f61f4708b19d237c20be8e6e
     name: admin-key
-    value: secret-admin-key-1663554688310
+    value: "{{ _['local-admin-key'] }}"
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_910eb19301d847ee8d9d0250cf0bc59a
     name: key
-    value: secret-client-key-1663554688310
+    value: "{{ _['local-key'] }}"
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_867c3acee9ab4f0fac32ef263295ee23
     name: client-id
     value: 6327d68bcc13d0e17f4fcd4f
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_53f8edbe917341cd89f7232e18faab9b
     name: admin-key
     value: secret-admin-key-1663555211459
     description: ""
-    disabled: false
+    disabled: true
   - id: pair_c9aee4a5672e4569a511c966c481ccd6
     name: key
     value: secret-client-key-1663555211459
     description: ""
-    disabled: false
+    disabled: true
   - name: Content-Type
     value: application/json
     id: pair_825ae330d51c43f291041bbb16fb096d
     disabled: false
+  - id: pair_2e9d720059844917abbbdf38dce13c8b
+    name: client-id
+    value: 632a91bdc7dda1d4c4c1776c
+    description: ""
+    disabled: true
+  - id: pair_b815deb4f55748ed91c7d3f73213ad04
+    name: admin-key
+    value: secret-admin-key-1663734205847
+    description: ""
+    disabled: true
+  - id: pair_cd34db07bd2b4e0f963cd5160368932e
+    name: key
+    value: secret-client-key-1663734205847
+    description: ""
+    disabled: true
 authentication: {}
-metaSortKey: -1663649137365
+metaSortKey: -1663471865675.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
