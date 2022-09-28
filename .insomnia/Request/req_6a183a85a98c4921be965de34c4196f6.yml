@@ -1,16 +1,19 @@
-_id: req_a73b5bb3ff3b4c2895dec8ec8892c511
+_id: req_6a183a85a98c4921be965de34c4196f6
 type: Request
 parentId: fld_e5b8f8918c0e4fb2b73834fc38ac198a
-modified: 1664351873785
-created: 1663817200115
-url: "{{ _['localhost-url']
-  }}/admin/participant/blocked-user/6329461829c317963a4678a3"
-name: /admin/participant/blocked-user/:_id
+modified: 1664351892629
+created: 1664184307163
+url: "{{ _['localhost-url'] }}/admin/user/unblock-user"
+name: /admin/participant/unblock-user
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"userId": "Anonymous-1664252683427",
+    	"roomId": "633279be81163c2e0eeb009e"
+    }
 parameters: []
 headers:
   - id: pair_a051207205ef43faa78031b89764c496
@@ -63,7 +66,7 @@ headers:
     description: ""
     disabled: true
 authentication: {}
-metaSortKey: -1663471865675.5
+metaSortKey: -1663428384579.25
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

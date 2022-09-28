@@ -1,7 +1,7 @@
 _id: req_db2a512f3f1448a8aea8efed74443673
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1663577210205
+modified: 1663927157132
 created: 1663304157288
 url: "{{ _['localhost-url'] }}/admin/room/private"
 name: /admin/room/private
@@ -22,12 +22,12 @@ body:
       fileName: C:\Users\nkhuy1\Pictures\Saved Pictures\koala.jpg
       disabled: true
     - id: pair_b52a6cb8ec154379a18b221363410a38
-      name: OtherUserId
-      value: "2"
+      name: otherUserId
+      value: "4"
       description: ""
     - id: pair_9a9b699a9fc9459d86234c00c53aed8d
       name: currentUserId
-      value: "3"
+      value: "1"
       description: ""
 parameters: []
 headers:

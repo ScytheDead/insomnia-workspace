@@ -1,9 +1,9 @@
 _id: req_39d8fcef12434d4d888421abe604ce15
 type: Request
-parentId: fld_91bacd4418ae420db0658f2687dbda57
-modified: 1663899494588
+parentId: fld_e5b8f8918c0e4fb2b73834fc38ac198a
+modified: 1664351776347
 created: 1663649166195
-url: "{{ _['localhost-url'] }}/participant"
+url: "{{ _['localhost-url'] }}/admin/participant/"
 name: /participant
 description: ""
 method: DELETE
@@ -29,17 +29,17 @@ headers:
     disabled: true
   - id: pair_867c3acee9ab4f0fac32ef263295ee23
     name: client-id
-    value: 6327d68bcc13d0e17f4fcd4f
+    value: "{{ _['client-id'] }}"
     description: ""
     disabled: false
   - id: pair_53f8edbe917341cd89f7232e18faab9b
     name: admin-key
-    value: secret-admin-key-1663555211459
+    value: "{{ _['admin-key'] }}"
     description: ""
     disabled: false
   - id: pair_c9aee4a5672e4569a511c966c481ccd6
     name: key
-    value: secret-client-key-1663555211459
+    value: "{{ _.key }}"
     description: ""
     disabled: false
   - name: Content-Type
@@ -47,7 +47,7 @@ headers:
     id: pair_825ae330d51c43f291041bbb16fb096d
     disabled: false
 authentication: {}
-metaSortKey: -1663649137365
+metaSortKey: -1663471865725.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

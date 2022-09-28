@@ -1,9 +1,9 @@
 _id: req_fc77869f0c5548548dc284424a0d4ddd
 type: Request
 parentId: wrk_fa126945ab6b4a90bdad9b5ed1f0b57f
-modified: 1663492288496
+modified: 1664176718271
 created: 1663051222579
-url: "{{ _['localhost-url'] }}/admin/room/6321a510ca12b05f1ddd2259"
+url: "{{ _['localhost-url'] }}/room/6329461829c317963a4678a3"
 name: /admin/room/:_id
 description: ""
 method: GET
@@ -14,19 +14,19 @@ parameters: []
 headers:
   - id: pair_e6d270a925954778b365ff521ffdcc88
     name: client-id
-    value: 63213bba5ca42fc82ce4b42a
+    value: "{{ _['local-client-id'] }}"
     description: ""
     disabled: false
   - id: pair_03fd68a8cda846feacc7b44ce5edd198
     name: key
-    value: secret-client-key-1663122348525
+    value: "{{ _['local-key'] }}"
     description: ""
   - name: Content-Type
     value: application/json
     id: pair_8bc837d77b2541be98ccdd089bb636c4
   - id: pair_b6967628ba904f0ebb0d5814fb35a38b
-    name: username
-    value: cmctest1
+    name: admin-key
+    value: "{{ _['local-admin-key'] }}"
     description: ""
     disabled: false
 authentication: {}

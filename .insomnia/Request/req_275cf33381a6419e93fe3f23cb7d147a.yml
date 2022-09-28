@@ -1,7 +1,7 @@
 _id: req_275cf33381a6419e93fe3f23cb7d147a
 type: Request
 parentId: fld_c030cbff19ff45e2abdb694e493808d0
-modified: 1663735151811
+modified: 1664262782408
 created: 1663560210210
 url: "{{ _['localhost-url'] }}/admin/setting"
 name: /admin/setting
@@ -42,15 +42,15 @@ headers:
     disabled: true
   - id: pair_e826876b73854218ad6065fd0054bf66
     name: client-id
-    value: "{{ _['local-client-id'] }}"
+    value: "{{ _['client-id'] }}"
     description: ""
   - id: pair_1cceaa87cc964d3f9e6194ad7085a3f9
     name: admin-key
-    value: "{{ _['local-admin-key'] }}"
+    value: "{{ _['admin-key'] }}"
     description: ""
   - id: pair_242a21d8f3ef41d1ade15ffd446d5ba8
     name: key
-    value: "{{ _['local-key'] }}"
+    value: "{{ _['key'] }}"
     description: ""
 authentication: {}
 metaSortKey: -1663296031302.5

@@ -1,27 +1,31 @@
-_id: req_c0c3558737034995bfb75cfad78f9593
+_id: req_0e2f3f0433d74b5db9fdb93286936515
 type: Request
-parentId: wrk_fa126945ab6b4a90bdad9b5ed1f0b57f
-modified: 1664176657005
-created: 1663394237967
-url: "{{ _['localhost-url'] }}/room/global"
-name: /room/global
+parentId: fld_0b99103b48ba42d4a127b8c968072047
+modified: 1664185488703
+created: 1663916660980
+url: "{{ _['localhost-url'] }}/admin/room/all"
+name: /admin/room/all
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"cursor": "",
+    	"pageSize": 10
+    }
 parameters: []
 headers:
   - id: pair_583f72ad003343d2894b0f9c6f22cf64
     name: client-id
     value: "{{ _['local-client-id'] }}"
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_e367297b5d67417ab7255858dfec4730
     name: admin-key
     value: "{{ _['local-admin-key'] }}"
     description: ""
-    disabled: true
+    disabled: false
   - name: Content-Type
     value: application/json
     id: pair_d79e23406f6b4e42b6b09e4e464d4bb4
@@ -30,7 +34,7 @@ headers:
     name: key
     value: "{{ _['local-key'] }}"
     description: ""
-    disabled: true
+    disabled: false
   - id: pair_588649cf0d0b4295bfc8df2f1b49fe0e
     name: client-id
     value: "{{ _['34-client-id'] }}"
@@ -48,18 +52,21 @@ headers:
     disabled: true
   - id: pair_afe4dad4b5264f6985c894ff2c852d1d
     name: client-id
-    value: "{{ _['local-client-id'] }}"
+    value: "{{ _['192-client-id'] }}"
     description: ""
+    disabled: true
   - id: pair_588da7de3882436fa4b9451855121ea4
     name: admin-key
-    value: "{{ _['local-admin-key'] }}"
+    value: "{{ _['192-admin-key'] }}"
     description: ""
+    disabled: true
   - id: pair_a7403aae21f54118a51034f85e479345
     name: key
-    value: "{{ _['local-key'] }}"
+    value: "{{ _['192-key'] }}"
     description: ""
+    disabled: true
 authentication: {}
-metaSortKey: -1662973968206
+metaSortKey: -1663049561573.0625
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

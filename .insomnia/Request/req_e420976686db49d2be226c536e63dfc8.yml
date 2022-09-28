@@ -1,7 +1,7 @@
 _id: req_e420976686db49d2be226c536e63dfc8
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1663595251909
+modified: 1664270493436
 created: 1662974024076
 url: "{{ _['localhost-url'] }}/admin/room/public"
 name: /admin/room/public
@@ -19,7 +19,8 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: C:\Users\nkhuy1\Pictures\Saved Pictures\koala2.jpg
+      fileName: /Users/huynguyen/Pictures/Social
+        Images/wartermark-logo/noel/christmas.jpeg
       disabled: false
     - id: pair_3d15fd372d0f4a44a777395c7cd82daf
       name: maximum
@@ -37,16 +38,16 @@ headers:
     disabled: false
   - id: pair_90a6e662ac6d474e857d88b0491f32d2
     name: client-id
-    value: 6327d68bcc13d0e17f4fcd4f
+    value: "{{ _['client-id'] }}"
     description: ""
   - id: pair_665696a3d376420e9cc87dfe1f1243ed
     name: key
-    value: secret-client-key-1663555211459
+    value: "{{ _.key }}"
     description: ""
     disabled: false
   - id: pair_bc412f7c22584e2098ce004867806673
     name: admin-key
-    value: secret-admin-key-1663555211459
+    value: "{{ _['admin-key'] }}"
     description: ""
 authentication: {}
 metaSortKey: -1662974024076
