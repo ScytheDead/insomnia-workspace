@@ -1,9 +1,9 @@
 _id: req_6a183a85a98c4921be965de34c4196f6
 type: Request
 parentId: fld_e5b8f8918c0e4fb2b73834fc38ac198a
-modified: 1664351892629
+modified: 1664353434211
 created: 1664184307163
-url: "{{ _['localhost-url'] }}/admin/user/unblock-user"
+url: "{{ _['localhost-url'] }}/admin/participant/unblock-user"
 name: /admin/participant/unblock-user
 description: ""
 method: POST

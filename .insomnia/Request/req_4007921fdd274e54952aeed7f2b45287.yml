@@ -1,9 +1,9 @@
 _id: req_4007921fdd274e54952aeed7f2b45287
 type: Request
 parentId: fld_e5b8f8918c0e4fb2b73834fc38ac198a
-modified: 1664351898177
+modified: 1664353419554
 created: 1664336982886
-url: "{{ _['localhost-url'] }}/admin/user/block-user"
+url: "{{ _['localhost-url'] }}/admin/participant/block-user"
 name: /admin/participant/block-user
 description: ""
 method: POST

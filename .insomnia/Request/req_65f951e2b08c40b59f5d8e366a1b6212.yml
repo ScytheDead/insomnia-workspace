@@ -1,39 +1,34 @@
-_id: req_cff6c9a0203540948882643bc571c712
+_id: req_65f951e2b08c40b59f5d8e366a1b6212
 type: Request
-parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1664354101066
-created: 1663471824101
-url: "{{ _['localhost-url'] }}/admin/room/private/1"
-name: /admin/room/private/1
+parentId: fld_118e638865e442b69567bab9f5a2d049
+modified: 1664531827681
+created: 1664513652935
+url: "{{ _['localhost-url'] }}/admin/data/export"
+name: /admin/data/export
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: ""
 parameters: []
 headers:
-  - id: pair_583f72ad003343d2894b0f9c6f22cf64
+  - id: pair_66901b1ddae24d0797fdf4c44c55deca
     name: client-id
     value: "{{ _['client-id'] }}"
     description: ""
-    disabled: false
-  - id: pair_e367297b5d67417ab7255858dfec4730
+  - id: pair_356bd3b1afe349cea92b9cea6c4434b0
     name: key
     value: "{{ _.key }}"
     description: ""
-  - id: pair_8fd7b9a817f94664bc9d0bd12c923200
+  - id: pair_4cb9786d6c8a4c3786550351062ecbf5
     name: admin-key
     value: "{{ _['admin-key'] }}"
     description: ""
   - name: Content-Type
     value: application/json
-    id: pair_d79e23406f6b4e42b6b09e4e464d4bb4
-  - id: pair_60efad36548c44188f5630b0ab7b1667
-    name: ""
-    value: ""
-    description: ""
+    id: pair_81af62f2669d422ebb7ecef33ca3cdf0
 authentication: {}
-metaSortKey: -1663049497688.2188
+metaSortKey: -1664513652935
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

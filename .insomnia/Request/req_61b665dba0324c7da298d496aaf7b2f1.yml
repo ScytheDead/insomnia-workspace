@@ -1,0 +1,44 @@
+_id: req_61b665dba0324c7da298d496aaf7b2f1
+type: Request
+parentId: fld_118e638865e442b69567bab9f5a2d049
+modified: 1664531975548
+created: 1664520697183
+url: "{{ _['localhost-url'] }}/admin/data/import"
+name: /admin/data/import
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: restoreFile
+      value: ""
+      id: pair_4241cc863f9746a290459816a12f5268
+      type: file
+      multiline: null
+      fileName: /Users/huynguyen/MyData/CMCGlobal/projects/liveon/www-arctx-chatbox/export-data/export-data-6327d480fb04182043956fde-1664531969729.json
+parameters: []
+headers:
+  - id: pair_66901b1ddae24d0797fdf4c44c55deca
+    name: client-id
+    value: "{{ _['client-id'] }}"
+    description: ""
+  - id: pair_356bd3b1afe349cea92b9cea6c4434b0
+    name: key
+    value: "{{ _.key }}"
+    description: ""
+  - id: pair_4cb9786d6c8a4c3786550351062ecbf5
+    name: admin-key
+    value: "{{ _['admin-key'] }}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_8f138e8843044103830c2155f4055423
+authentication: {}
+metaSortKey: -1664036717898.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

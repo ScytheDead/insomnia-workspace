@@ -1,7 +1,7 @@
 _id: req_9f7c978e23184d558500bc9fd6a14d83
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1663917141236
+modified: 1664361702160
 created: 1663398575617
 url: "{{ _['localhost-url'] }}/admin/room/private/1"
 name: /admin/room/private
@@ -32,17 +32,17 @@ headers:
     disabled: true
   - id: pair_1276a964e6314ec182264c495c153df5
     name: client-id
-    value: 6327d68bcc13d0e17f4fcd4f
+    value: "{{ _['client-id'] }}"
     description: ""
     disabled: false
   - id: pair_70a5f8ad7b5145dc831ac8aa6d37da6b
     name: admin-key
-    value: secret-admin-key-1663555211459
+    value: "{{ _['admin-key'] }}"
     description: ""
     disabled: false
   - id: pair_43d958ea5d734f16a8c3a62e06403870
     name: key
-    value: secret-client-key-1663555211459
+    value: "{{ _.key }}"
     description: ""
     disabled: false
 authentication: {}

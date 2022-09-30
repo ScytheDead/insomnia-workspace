@@ -1,0 +1,41 @@
+_id: req_60ad21e8dc4548e8b146bd0628a66927
+type: Request
+parentId: fld_118e638865e442b69567bab9f5a2d049
+modified: 1664531971426
+created: 1664531271857
+url: "{{ _['localhost-url'] }}/admin/data/delete"
+name: /admin/data/delete
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"timestamp": "2022-10-27T04:31:07.177+00:00"
+    }
+parameters: []
+headers:
+  - id: pair_66901b1ddae24d0797fdf4c44c55deca
+    name: client-id
+    value: "{{ _['client-id'] }}"
+    description: ""
+  - id: pair_356bd3b1afe349cea92b9cea6c4434b0
+    name: key
+    value: "{{ _.key }}"
+    description: ""
+  - id: pair_4cb9786d6c8a4c3786550351062ecbf5
+    name: admin-key
+    value: "{{ _['admin-key'] }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_81af62f2669d422ebb7ecef33ca3cdf0
+authentication: {}
+metaSortKey: -1664513652985
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

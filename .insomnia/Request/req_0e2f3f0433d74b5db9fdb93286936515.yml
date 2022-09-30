@@ -1,7 +1,7 @@
 _id: req_0e2f3f0433d74b5db9fdb93286936515
 type: Request
 parentId: fld_0b99103b48ba42d4a127b8c968072047
-modified: 1664185488703
+modified: 1664354555388
 created: 1663916660980
 url: "{{ _['localhost-url'] }}/admin/room/all"
 name: /admin/room/all
@@ -18,12 +18,12 @@ parameters: []
 headers:
   - id: pair_583f72ad003343d2894b0f9c6f22cf64
     name: client-id
-    value: "{{ _['local-client-id'] }}"
+    value: "{{ _['client-id'] }}"
     description: ""
     disabled: false
   - id: pair_e367297b5d67417ab7255858dfec4730
     name: admin-key
-    value: "{{ _['local-admin-key'] }}"
+    value: "{{ _['admin-key'] }}"
     description: ""
     disabled: false
   - name: Content-Type
@@ -32,39 +32,9 @@ headers:
     disabled: false
   - id: pair_0c0b9168e0994fa991463f373d2f87bf
     name: key
-    value: "{{ _['local-key'] }}"
+    value: "{{ _.key }}"
     description: ""
     disabled: false
-  - id: pair_588649cf0d0b4295bfc8df2f1b49fe0e
-    name: client-id
-    value: "{{ _['34-client-id'] }}"
-    description: ""
-    disabled: true
-  - id: pair_1b90106fe08d43c68d763047546dff51
-    name: admin-key
-    value: "{{ _['34-admin-key'] }}"
-    description: ""
-    disabled: true
-  - id: pair_f3870c0d8b194696ae70a7a5ea3844f7
-    name: key
-    value: "{{ _['34-key'] }}"
-    description: ""
-    disabled: true
-  - id: pair_afe4dad4b5264f6985c894ff2c852d1d
-    name: client-id
-    value: "{{ _['192-client-id'] }}"
-    description: ""
-    disabled: true
-  - id: pair_588da7de3882436fa4b9451855121ea4
-    name: admin-key
-    value: "{{ _['192-admin-key'] }}"
-    description: ""
-    disabled: true
-  - id: pair_a7403aae21f54118a51034f85e479345
-    name: key
-    value: "{{ _['192-key'] }}"
-    description: ""
-    disabled: true
 authentication: {}
 metaSortKey: -1663049561573.0625
 isPrivate: false
